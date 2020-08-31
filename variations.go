@@ -3,13 +3,13 @@ package variations
 import (
 	"errors"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
+	"github.com/conku/admin"
+	"github.com/conku/qor/resource"
+	"github.com/conku/qor/utils"
 )
 
 func init() {
-	admin.RegisterViewPath("github.com/qor/variations/views")
+	admin.RegisterViewPath("github.com/conku/variations/views")
 }
 
 type VariationsConfig struct {
